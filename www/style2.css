@@ -1,0 +1,122 @@
+/********************************************************/
+/*                  CSS Stylesheet 2                    */
+/*Blue hilighted transparent smart theme.               */
+/*Completly ugly and unuseful. Illuminati complot, ofc  */
+/********************************************************/
+/********** Général *********/
+body
+{
+    background: url("illubk.jpg") fixed repeat ;
+    color: white;
+    font-family: "Segoe UI Light", Verdana, Arial, Impact, sans-serif;
+    margin: 0px;
+}
+
+.auto-center
+{
+	display: flex;
+	justify-content: space-around;;
+	align-items: center;
+}
+/****************************/
+
+
+/***********Titres***********/
+.title, h1, h2
+{
+	font-weight: lighter;
+	color: white;
+	text-align: center;
+	text-shadow: 0px 0px 8px white;
+}
+
+.header
+{
+    background: rgb(20,150,220);
+    color: white;
+    border-bottom: solid 1px white;
+    margin-top: 0px;
+    width: auto;
+    padding: 10px;
+}
+
+/*h1*/
+/****************************/
+
+
+/*******Boites de texte******/
+.textbox, .textbox-reactive
+{
+    font-family: Arial, Verdana, sans-serif;
+	color: white;
+	background-color: rgba(30,30,30,0.4);
+	opacity: 0.6;
+	border: solid 1px rgb(20,150,220);
+	box-shadow: 6px 6px 12px black;
+	padding: 8px;
+}
+
+.textbox-reactive:hover
+{
+    opacity: 1;
+    border-width: 2px;
+    padding: 7px;
+}
+/****************************/
+
+
+/********** Boutons *********/
+.button
+{
+    opacity: 0.8;
+    text-align: center;
+    background: #151515;
+    color: #31B404;
+    border: orange 2px solid;
+    padding: 12px;
+    margin: 10px;
+    width: auto;
+}
+
+.button:hover
+{
+    opacity: 1;
+    color: rgba(50, 220, 50, 1);
+    /*font-weight: bold;*/
+    border: orange 3px solid;
+    padding: 11px;
+}
+/****************************/
+
+
+/*********** Liens **********/
+a
+{
+    opacity: 0.8;
+    color: #31B404;
+}
+
+a:hover
+{
+    opacity: 1;
+    color: green;
+    font-weight: bold;
+}
+
+a:visited
+{
+    opacity: 0.6;
+    color: green;
+    font-weight: lighter;
+}
+/****************************/
+
+/********* Spécial **********/
+.centered-container-limited
+{
+    min-width: 400px;
+    max-width: 40%;
+    text-align: center;
+    width: auto;
+    margin: auto;
+}

@@ -1,0 +1,184 @@
+/* CSS for the illuminati dank website of PureWeb */
+em
+{
+	color: green;
+	font-style: normal;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 16px;
+}
+
+body
+{
+	background: url("illubk.jpg") fixed repeat ;
+	color: white;
+	/*text-shadow: 3px 3px 6px grey;*/
+}
+
+p
+{
+	font-family: Arial, Verdana, sans-serif;
+	color: white;
+	background-color: rgba(30,30,30,0.4);
+	opacity: 0.6;
+	border: solid 2px rgb(20,150,220);
+	box-shadow: 6px 6px 12px black;
+	padding: 8px;
+}
+
+p:hover
+{
+	opacity: 1;
+}
+
+h1
+{
+	font-family: "Segoe UI Light", Verdana, Arial, Impact, sans-serif;
+	font-weight: lighter;
+	color: white;
+	text-align: center;
+	text-shadow: 0px 0px 8px white;
+	/*background: url("illu.jpg") repeat;
+	border: solid 2px orange;*/
+}
+
+h2
+{
+	font-family: "Segoe UI Light", Verdana, Arial, Impact, sans-serif;
+	font-weight: lighter;
+	text-shadow: 3px 3px 6px grey;
+}
+
+.bouton
+{
+	opacity: 0.8;
+	text-align: center;
+	background: #151515;
+	color: #31B404;
+	border: orange 2px solid;
+	padding: 12px;
+	margin: 10px;
+	margin-bottom: 20px;
+	width: auto;
+}
+
+.bouton:hover
+{
+	opacity: 1;
+	color: green;
+	font-weight: bold;
+	border: orange 3px solid;
+	padding: 11px;
+	/*border-radius: 7px;*/
+}
+
+.bouton:visited
+{
+	opacity: 0.6;
+	color: green;
+	font-weight: lighter;
+}
+
+a
+{
+	opacity: 0.8;
+	color: #31B404;
+}
+
+a:hover
+{
+	opacity: 1;
+	color: green;
+	font-weight: bold;
+}
+
+a:visited
+{
+	opacity: 0.6;
+	color: green;
+	font-weight: lighter;
+}
+
+.header
+{
+	background: rgb(20,150,220);
+	color: white;
+	font-family: "Segoe UI", Verdana, Arial, sans-serif;
+	border: solid 1px white;
+	margin-top: 0px;
+	width: 100%;
+}
+
+header
+{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin: auto;
+	width: 100%;
+}
+
+.container
+{
+	min-height: 200px;
+	height: auto;
+	max-height: 400px;
+}
+
+.illustration
+{
+	text-align: center;
+}
+
+.article
+{
+	margin: auto;
+	padding: 10px;
+	width: 80%;
+	min-width: 420px;
+}
+
+iframe
+{
+	border: solid 2px rgb(20,150,220);
+	margin: auto;
+	width: 90%;
+	min-width: 640;
+	min-height: 420;
+}
+
+.content-zone
+{
+	font-family: Arial, Verdana, sans-serif;
+	color: white;
+	background-color: rgba(30,30,30,0.4);
+	opacity: 0.6;
+	border: solid 2px rgb(20,150,220);
+	box-shadow: 6px 6px 12px black;
+	padding: 8px;
+}
+
+.auto-center
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100px;
+}
+
+.textbox
+{
+	font-family: Arial, Verdana, sans-serif;
+	color: white;
+	background-color: rgba(30,30,30,0.4);
+	opacity: 0.6;
+	border: solid 1px rgb(20,150,220);
+	box-shadow: 6px 6px 12px black;
+	padding: 8px;
+	width: auto;
+	max-height: 50px;
+	text-align: center;
+}
+
+.draggableBox:hover
+{
+	border-color: rgb(20,200,220);
+}

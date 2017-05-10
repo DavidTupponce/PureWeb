@@ -1,0 +1,96 @@
+/************************************************/
+/*          CSS Experimental Lab - 2k17         */
+/* Tropical-themed CSS for the CSS Experimental */
+/* Lab, with a video background                 */
+/************************************************/
+
+h1,h2,h3,h4
+{
+    font-family: "Papyrus", "Papryrus_repl", "Segoe UI",Courier, Verdana, Arial,fantasy;
+    font-weight: 100;
+}
+
+body
+{
+    /*position: relative;
+    z-index: -5;*/
+
+    font-family: "Papyrus", Verdana,Arial,serif;
+    color: black;
+
+    background: url("background.jpg") fixed no-repeat;
+    background-size: cover;
+
+    /*filter: blur(3px);*/
+}
+
+h1
+{
+    text-align: center;
+    font-size: 4em;
+
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+
+h2
+{
+    display: list-item;
+    color: teal;
+
+    margin-left: 0.38em;
+    margin-bottom: 5px;
+
+    list-style: disc;
+    list-style-position: outside;
+    font-size: 2em;
+}
+
+video
+{
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /*object-fit: cover;*/
+}
+
+.background
+{
+    position: fixed;
+    z-index: -2;
+
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.footer
+{
+    width: 100%;
+    margin: 0px;
+
+    text-align: center;
+    color: #4F4F4F;
+}
+
+.content
+{
+    width: 60%;
+    z-index: 1;
+
+    border-left: solid 6px teal;
+    background-color: rgba(255, 255, 255, 0.6);
+
+    padding: 8px;
+    margin: auto;
+}
+
+@font-face
+{
+	font-family: 'Papyrus_repl';
+	src: url("../../fonts/PAPYRUS.TTF");
+}

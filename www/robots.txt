@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /illuminati/
+Disallow: /fonts/
+Disallow: /error/
+Disallow: /TP/

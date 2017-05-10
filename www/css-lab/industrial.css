@@ -1,0 +1,131 @@
+/************************************************/
+/*          CSS Experimental Lab - 2k17         */
+/* Industrially-themed CSS for the CSSEL.       */
+/************************************************/
+
+video#video-background, #toggle-play
+{
+    display: none;
+}
+
+body
+{
+    background: url("metal.jpg") fixed no-repeat;
+    background-size: cover;
+
+    font-family: Courier, monospace;
+    color: white;
+    text-shadow: 0 0 5px orange;
+
+    margin: 0;
+}
+
+h1,h2,h3,h4
+{
+    font-family: "Stencil",Impact,monospace;
+    font-weight: lighter;
+    color: white;
+
+}
+
+h1
+{
+    color: white;
+    text-shadow: 0 0 10px orange;
+    text-align: center;
+    font-size: 1em;
+
+    margin: 0;
+    animation: 3s infinite fire;
+}
+
+.title
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 1.5em;
+
+    margin: 0;
+    margin-bottom: 20px;
+    padding-top: 20px;
+
+    color: white;
+    text-shadow: 0 0 10px orange;
+    text-align: center;
+    font-size: 3em;
+
+    border-bottom: solid 10px transparent;
+    border-image: url("experimental.jpg") 10 1 repeat;
+    box-shadow: 0 0 20px black;
+
+    background: url("metal2.jpg") fixed no-repeat;
+    background-size: cover;
+
+    animation: 0.8s fall;
+}
+
+.content
+{
+    width: 80%;
+
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 4em;
+    padding: 10px;
+
+    border: solid 1px orange;
+    box-shadow: 0 0 10px orange;
+    text-shadow: 0 0 5px black;
+
+    background-color: rgba(60, 60, 60, 0.5);
+
+    animation: 4s fusion;
+}
+
+@keyframes fire {
+    from{text-shadow: 0 0 10px orange;}
+    10%{text-shadow: 0 0 15px orange;}
+    20%{text-shadow: 0 0 5px orange;}
+    25%{text-shadow: 0 0 12px orange;}
+    27%{text-shadow: 0 0 17px orange;}
+    42%{text-shadow: 0 0 7px orange;}
+    64%{text-shadow: 0 0 6px orange;}
+    80%{text-shadow: 0 0 20px orange;}
+    to{text-shadow: 0 0 10px orange;}
+}
+
+@keyframes fall {
+    from{
+        height: 0%;
+        box-shadow: 0 0 5px orange;
+    }
+    30%{height: 2em;}
+    40%{height: 1em;}
+    45%{
+        height: 1.8em;
+        box-shadow: 0 0 40px orange;
+    }
+    to {
+        height: 1.5em;
+        box-shadow: 0 0 20px black;
+    }
+}
+
+@keyframes fusion {
+    from{
+        background-color: rgba(120, 80, 50, 0);
+        box-shadow: 0 0 4px yellow;
+        text-shadow: 0 0 5px orange;
+    }
+    20%{
+        background-color: rgba(80, 80, 60, 0.8);
+        box-shadow: 0 0 50px orange;
+    }
+    to{
+        background-color: rgba(60, 60, 60, 0.5);
+        box-shadow: 0 0 10px orange;
+        text-shadow: 0 0 5px black;
+    }
+}

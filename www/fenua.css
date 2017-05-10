@@ -1,0 +1,86 @@
+body
+{
+    font-family: "Papyrus", "Papyrus_repl", "Segoe UI Light", Verdana, fantasy;
+    color: white;
+    text-shadow: 0px 0px 20px orange;
+    background: url("background.jpg") fixed no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0px;
+}
+
+.landing
+{
+    font-size: 84px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30vh;
+    transform: translateY(-50%);
+}
+
+.p_center
+{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+h2
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+}
+
+footer
+{
+    font-size: 24px;
+    color: black;/*rgb(40, 140, 200);*/
+    margin-top: 13vh;
+    margin-bottom: 0px;
+    text-shadow: 0px 0px 10px orange;
+    bottom: 10px;
+    right: 10px;
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(40, 100, 150);
+    text-shadow: 0px 0px 8px white;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+@font-face
+{
+	font-family: 'Papyrus_repl';
+	src: url("fonts/PAPYRUS.TTF");
+}
+
+.button
+{
+    background-color: teal;
+    color: white;
+    border: solid 2px white;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 0px, 0px, 10px, white;
+    display: flex;
+    justify-content: center;
+    width:15%;
+    padding: 5px;
+    margin: auto;
+}
+
+.button:hover
+{
+    background-color: white;
+    color: teal;
+    border: solid 2px teal;
+    text-shadow:  0px, 0px, 10px, teal;
+}

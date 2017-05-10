@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="/server/filelist.css">
+</head>
+<body>
+	<div class="header">
+		<h2>PureWeb Web Server</h2>
+		<span>Network User Interface - Online at {{ip}}</span>
+	</div>
+
+	<h1>Index of {{path}}</h1>
+	<div class="file-list">

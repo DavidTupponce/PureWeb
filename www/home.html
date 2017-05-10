@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>PureWeb</title>
+    <link rel="stylesheet" href="metro.css">
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+<body class="background">
+    <div class="nav-bar animated flipInX">
+        <img id="icon" src="icon.png" alt="" width="64px" height="64px">
+        <div class="nav-bar-logo">PureWeb 1.4</div>
+        <a href="#" class="nav-item">Accueil</a>
+        <a href="/download/"  class="nav-item">Téléchargement</a>
+        <a href="demineur.html"  class="nav-item">Démineur en ligne</a>
+        <a href="/error/notyetdev.html"  class="nav-item">Contact</a>
+        <a href="/error/notyetdev.html"  class="nav-item">Aide</a>
+    </div>
+    <div id="placeholder"></div>
+    <div class="landing animated fadeInUp">
+        <h1 id="landing-title">PureWeb 1.4</h1>
+        <p id="landing-subtitle">Un serveur écrit en Purebasic !</p>
+    </div>
+    <section class="animated fadeInUp">
+        <article class="standard">
+            <h2>PureWeb,c'est quoi?</h2>
+            <p>
+                PureWeb est un serveur web entièrement écrit en PureBasic.<br>
+                Le projet PureWeb a pour but de créer un serveur web fonctionnel, facile d'utilisation, léger et <b>gratuit</b> afin de permettre à
+                n'importe qui, confirmé ou débutant, de mettre son site web en ligne aisément.
+                <ul>
+                    <li><b>Léger : </b> PureWeb est trés léger. Extrêmement.</li>
+                    <li><b>Facile d'utilisation : </b>Le projet prévoit la création d'une interface graphique pour configurer et administrer aisément le serveur.</li>
+                    <li><b>Gratuit : </b>Et il le restera toujours ! Ce projet est inscrit dans la philosophie du libre, et est totalement gratuit !</li>
+                </ul>
+            </p>
+            <h2>En savoir plus</h2>
+            <p>
+                PureWeb est encore en stade avancé de développement et ne supporte pas par exemple les requêtes POST ni le PHP.<br>
+                La personnalisation des pages HTML est possible à l'aide du Purescript, un script de création d'HTML inspiré du Purebasic.
+                Cette fontionnalité est à l'état embryonnaire, seules 2 fonctions sont diponibles pour l'instant :<br>
+                <ul>
+                    <li><i>getClientIP : </i>Insére l'adresse IP du client. La vôtre par exemple est <purescript>getClientIP</purescript>.</li>
+                    <li><i>getDate : </i>Insére la date locale du serveur au moment où la page est générée.</li>
+                </ul>
+                L'inclusion de Purescript dans une page est aisée, il suffit d'utiliser les balises <code>&lt;purescript&gt;</code> et <code>&lt;/purescript&gt;</code>
+                respectivement avant et après le script Purescript à exécuter.<br>
+                Des fonctions supplémentaires et des instructions (if, while, for, ect...) seront progressivement ajoutées.
+            </p>
+            <h2>Téléchargement</h2>
+            <p>
+                Le serveur PureWeb est téléchargeable gratuitement sur la <a href="/download.html">page de téléchargement</a>, sous la forme d'un exécutable Windows (versions x32 et x64)
+                et Linux (Ubuntu 16.4). Les sources sont aussi disponibles sur la même page. <i>Enjoy !</i>
+            </p>
+            <br><br>
+        </article>
+    </section>
+</body>
+</html>
